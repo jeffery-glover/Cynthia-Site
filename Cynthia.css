@@ -1,0 +1,128 @@
+.opening_header {
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image: url('Images/Portraits - Web/_MG_8827_1200px_web.jpg');
+}
+
+.opening_font_color {
+    color: #9e240e;
+}
+
+.opening_title {
+    font-size: 6em;
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 400px) {
+    .opening_title {
+        font-size: 4em;
+        margin-bottom: 0px;
+    }
+}
+
+.opening_subTitle {
+    font-size: 30px;
+    padding-top: 0px;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+    .opening_subTitle {
+        font-size: 20px;
+        padding-top: 0px;
+        margin-left: 20px;
+    }
+}
+
+.google_font {
+    font-family: 'Cinzel', serif;
+}
+
+
+
+.about_content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.about_header {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about_content_header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.project_section {
+    background: #7d5959;
+}
+
+.project_content {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.project_header {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.project_image {
+    max-height: 600px;
+   /* min-height: 300px; */
+    width: auto;
+    box-shadow: 10px 10px 5px;
+    border: 2px solid gray;
+}
+
+.rep_content {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.rep_header {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.bio_header {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.bio_content {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bio_section {
+    background: #7d5959;
+}
+
+.contact_section {
+    background: #0e0e46;
+}
+
+.contact_content {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact_header {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+body {
+    margin: 0px;
